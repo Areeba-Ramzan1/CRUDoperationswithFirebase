@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Operations</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container -->
+   <div id="container">
+     <h2>CRUD Operations With Firebase</h2><hr>
+        <!-- Form -->
+    <div id="form">
+      <label><strong>Roll No:</strong></label>
+        <input type="text" name="rollNo." id="rollNo" class="elements" placeholder="Please Enter Your Roll No. "><br><br>
+      <label><strong>Name:</strong></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" id="name" class="name" placeholder="Please Enter Your Name."><br><br>
+       <label><strong>Address:</strong></label> 
+        <input type="text" name="address" id="address" class="elements" placeholder="Please Enter Your Address."><br><br>
+        </div>
+
+        <!-- Buttons -->
+     <div id="buttons">
+        <button id="create">Create</button>
+        <button id="read">Read</button>
+        <button id="update">Update</button>
+        <button id="delete">Delete</button>
+     </div>
+     <div id="footer">
+        <p><strong>Areeba Ramzan (Student of SMIT)</strong></p>
+    </div>
+
+    </div>
+     
+     <!-- Link to connect all resources of Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
