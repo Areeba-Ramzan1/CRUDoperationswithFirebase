@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container -->
+    <div id="container">
+        <h2>CRUD Operations With Firebase</h2>
+        <hr>
+
+        <!-- Form -->
+        <div id="form">
+            <div class="form-group">
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" placeholder="Please Enter Your Roll No.">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Please Enter Your Name.">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Please Enter Your Email.">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Phone no:</label>
+                <input type="text" id="phone" placeholder="Please Enter Your Phone no.">
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div id="buttons">
+            <button id="create">Create</button>
+            <button id="read">Read</button>
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+  <p>📘 "Learning never stops – keep exploring!"</p>
+     </footer>
+   
+     <!-- Firebase Libraries (CDN) -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    <!-- Firebase Scripts -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

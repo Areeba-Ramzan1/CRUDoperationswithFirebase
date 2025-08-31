@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: #000; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ===== CONTAINER ===== */
+#container {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 420px;   
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+/* Heading */
+#container h2 {
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+/* ===== FORM ===== */
+#form {
+    margin: 15px 0;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    flex: 1;
+    font-weight: normal; 
+    font-size: 14px;
+    color: #ddd;
+}
+
+.form-group input {
+    flex: 2;
+    padding: 9px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: #2a2a2a;
+    color: #fff;
+}
+
+/* ===== BUTTONS ===== */
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+#buttons button {
+    flex: 1 1 45%;
+    margin: 6px;
+    padding: 11px;
+    border: none;
+    border-radius: 4px;
+    background: #1565c0;   
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#buttons button:hover {
+    background: #0d47a1; 
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 12px;
+    background: #1e1e1e;
+    color: #bbb;
+    font-size: 14px;
+}
